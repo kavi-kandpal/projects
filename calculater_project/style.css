@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+html body{
+    font-family: "Sofadi One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.cal{
+    text-align:center;
+}
+.container{
+    background-color: red;
+    display: flex;
+   flex-direction: column;
+   justify-content:center;
+   align-items: center;
+    margin: auto;
+    max-width:60vh;
+    max-height: auto;
+}
+
+    .button{
+padding: 20px;
+margin: 0 8px;
+border: 2px solid black;
+border-radius: 10px;
+cursor: pointer;
+width: 66px;
+    }
+    .row
+    {
+        margin: 8px 0;
+    }
+    .input {
+        font-size: 24px;
+        padding: 8px;
+        margin: 18px 0px;
+        border: 2px solid black;
+        border-radius: 18px;
+        width: 300px;
+    }
+    

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to external stylesheet -->
+</head>
+<body>
+  <nav>
+    <div>
+    <ul>
+        <li class="brand"><img src="logo.png" alt="spotify">spotify</li>  <!-- if we want to changes in the image so we use in css .class + tage like .brand img -->
+        <li>home</li>
+        <li>about</li>
+    </ul>
+  </div> </nav>
+  <div class="container">
+    <div class="songlist">
+    <span> <h1>Old Song </h1></span>
+    <div class="hii">
+      <div class="song">
+        <img src="cover.jpg" >
+        <span class="list">   Khoobsurat</span>
+        <span class="songitem"> <span class="spa">5:30<i id="1" class=" far songplay fa-play-circle"></i></span></span>
+      </div>
+      <div class="song">
+        <img src="coverphoto/3.jpg" >
+        <span class="list">   Aayi Nai</span>
+        <span class="songitem"><span class="spa">5:30<i id="2" class=" far songplay fa-play-circle"></i></span></span>
+      </div>
+      <div class="song">
+        <img src="coverphoto/4.jpg" >
+        <span class="list">  Tumhare Hi Rahenge Hum</span>
+        <span class="songitem"><span class="spa">5:30<i id="3" class=" far songplay fa-play-circle"></i></span></span>
+      </div>
+      <div class="song">
+        <img src="coverphoto/5.jpg" >
+        <span class="list">   Sajni</span>
+        <span class="songitem"><span class="spa">5:30<i id="4" class=" far songplay fa-play-circle"></i></span></span>
+      </div>
+      <div class="song">
+        <img src="coverphoto/6.jpg" >
+        <span class="list"> O Maahi</span>
+        <span class="songitem"><span class="spa">5:30<i id="5" class=" far songplay fa-play-circle"></i></span></span>
+      </div>
+      <div class="song">
+        <img src="coverphoto/7.jpg" >
+        <span class="list"> Dheere Dheere</span>
+        <span class="songitem"><span class="spa">5:30<i id="6" class=" far songplay fa-play-circle"></i></span></span>
+      </div>
+      <div class="song">
+        <img src="coverphoto/8.jpg" >
+        <span class="list">Ve Kamleya</span>
+        <span class="songitem"><span class="spa">5:30<i id="7" class=" far songplay fa-play-circle"></i></span></span>
+      </div>
+      <div class="song">
+        <img src="coverphoto/9.jpg" >
+        <span class="list">Duur Na Karin</span>
+        <span class="songitem"><span class="spa">5:30<i id="8" class=" far songplay fa-play-circle"></i></span></span>
+      </div>
+      <div class="song">
+        <img src="coverphoto/3.jpg" >
+        <span class="list">Aaj Ki Raat</span>
+        <span class="songitem"><span class="spa">5:30<i id="9" class=" far songplay fa-play-circle"></i></span></span>
+      </div>
+    </div>
+  </div>
+    </div>
+    <div class="songbanner"></div>
+  </div>
+<div class="bottom">
+    <input type="range" id="progress" name="range" min="0" value="0" max="100">
+    <div class="icons">
+        <i class="fa-2x fa-solid fa-backward-fast"id="fastbackward"></i>  
+        <i class="fas fa-2x fa-step-backward" id="back"></i>
+        <i class=" far fa-2x fa-play-circle" id="masterplay"></i>
+        <i class="fas fa-2x fa-step-forward" id="next"></i> 
+        <i class="fa-2x fa-solid fa-forward-fast"id="fastforward"></i>
+    </div>
+    <div class="info">
+      <img src="gif.gif" width="30px" alt="" id="gif">
+    </div>
+</div>
+</body>
+<script src="phase.js"></script>
+<script src="https://kit.fontawesome.com/0a03101d08.js" crossorigin="anonymous"></script>
+</html>
