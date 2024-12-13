@@ -17,7 +17,7 @@ let songs = [
     { songname: "9.mp3", filepath: "music/9.mp3" },
 
 ]
-//   
+
 masterplay.addEventListener('click', () => {
     masterplay.addEventListener('click', () => {
         if (audio.paused || audio.currentTime <= 0) {
